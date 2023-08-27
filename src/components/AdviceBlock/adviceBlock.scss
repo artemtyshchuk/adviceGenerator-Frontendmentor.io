@@ -1,0 +1,56 @@
+.adviceBlock {
+  display: grid;
+  justify-content: center;
+  background-color: #001c30;
+  .container {
+    width: 720px;
+    height: 442px;
+    margin-top: 25%;
+    display: grid;
+    grid-template-rows: 100px 200px;
+    background-color: #2d4356;
+    border-radius: 50% 20% / 10% 40%;
+    justify-content: center;
+    position: relative;
+  }
+  &__title {
+    padding-top: 38px;
+    color: #6bf4b8;
+    font-weight: normal;
+    text-align: center;
+  }
+  &__adviceText {
+    display: grid;
+    padding: 0 25px;
+    color: aliceblue;
+    text-align: center;
+    align-content: center;
+  }
+
+  &__divider {
+    position: absolute;
+    bottom: 100px;
+    left: 87px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__mainButton {
+    position: absolute;
+    bottom: -44px;
+    left: 310px;
+    margin-top: 70px;
+    width: 98px;
+    height: 98px;
+    border-radius: 100%;
+    background-color: #6bf4b8;
+    cursor: pointer;
+  }
+  &__buttonIcon {
+    margin: 0;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+  }
+}
